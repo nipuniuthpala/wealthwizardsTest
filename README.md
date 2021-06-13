@@ -83,8 +83,10 @@ Firefox 375px
 
 # Part 4: CI Integration
 
+
 pipeline {
-    agent any   // you can have docker or jenkons it self to run 
+
+    agent any   // you can have docker or jenkins it self to run 
 
     tools {nodejs "node"}
 
@@ -92,6 +94,7 @@ pipeline {
         git url 'https://github.com/nipuniuthpala/wealthwizardsTest.git'
     }
    //install all dependencies in package.json
+   
     stages {
         stage('Dependencies') {
             steps {
@@ -100,6 +103,7 @@ pipeline {
         }
         
         //build the project
+        
         stage('Build') {
             steps {
                 sh 'npm run build'
@@ -107,6 +111,7 @@ pipeline {
         }
         
              //Run the tests
+             
         stage('Tests') {
             steps {
                 sh 'npm run test'
@@ -149,6 +154,10 @@ I can create GovTx.feature file in the same folder but I didnt put the feature f
         |100000|0,20,40|£12,570.00|£27,432.00|
         
         |100001|0,20,40|£12,569.50|£27,432.60|
+        
+        |125139|0,20,40|£0.50|£42,515.40|
+        
+        |125140|0,20,40|£0.00|£42,516.00|
         
         |150000|0,20,40|£0.00|£52,460.00|
         
