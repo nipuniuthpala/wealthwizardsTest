@@ -1,0 +1,103 @@
+[
+  {
+    "description": "    Test Site Main features",
+    "keyword": "Feature",
+    "name": "SiteTestFeature",
+    "line": 1,
+    "id": "sitetestfeature",
+    "tags": [],
+    "uri": "Test.feature",
+    "elements": [
+      {
+        "id": "sitetestfeature;user-should-be-see-the-lead-quality-engineer-role",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User should be see the Lead Quality Engineer Role",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the website",
+            "result": {
+              "status": "passed",
+              "duration": 14923000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user see the About Us has 3 values",
+            "result": {
+              "status": "passed",
+              "duration": 3754000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user click on Careers",
+            "result": {
+              "status": "passed",
+              "duration": 5646000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user will see 5 WW Values",
+            "result": {
+              "status": "passed",
+              "duration": 504000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user select the View Jobs button",
+            "result": {
+              "status": "passed",
+              "duration": 1271000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user will see Lead Quality Engineer role Vacancy",
+            "result": {
+              "status": "passed",
+              "duration": 163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "user select the Find out more button",
+            "result": {
+              "status": "passed",
+              "duration": 1315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user validate the page",
+            "result": {
+              "status": "passed",
+              "duration": 299000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

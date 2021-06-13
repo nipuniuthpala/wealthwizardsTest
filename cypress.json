@@ -1,0 +1,23 @@
+{
+
+    "video": true,
+    "screenshotsFolder": "cypress/reports/",
+    "baseUrl" : "https://www.wealthwizards.com/",
+    "chromeWebSecurity": false,
+    "env":{
+        "username":"admin"
+    },
+    "projectId": "ysysvz",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": true,
+            "json": true
+        }
+    }
+   
+}
