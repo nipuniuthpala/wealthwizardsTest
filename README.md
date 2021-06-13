@@ -5,7 +5,7 @@
 How to  Execute
 
 - Download the git repo 
-- If you havent install npm use command ->brew install npm
+- If you haven't install npm use command ->brew install npm
 - Install cypress -> npm install cypress --save-dev
 - Install dependencies in package.json  Here important ones are  I have used cucumber preprocessor to write BDD feature files
 
@@ -56,7 +56,7 @@ Cucumber Report
 
 # Q3) Part 3: Visual test
 
-I have created percy account craeted a project and get the token.
+I have created percy account in the percy website and created a project and get the token.
 
 you need to export the token
 
@@ -126,7 +126,7 @@ pipeline {
 
 # Part 5: Cucumber
 
-I can create GovTx.feature file in the same folder but I didnt put the feature file in the same location as its not impelemented. Please find the scenarios. Can create all teh sacenarios as a scenario outline and give examples.
+I can create GovTx.feature file in the same folder but I didnt put the feature file in the same location as its not impelemented. Please find the scenarios. Can create all the sacenarios as a scenario outline and give examples.
 
  Scenario Outline: Validate the Taxes are correctly calculated for each band for the normal individual who is single and no disability
  
